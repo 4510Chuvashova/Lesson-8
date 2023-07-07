@@ -1,0 +1,5 @@
+G:\STD_FOLDER\Desktop\Урок 8\Задача 56\obj\Debug\net6.0\Задача 56.csproj.AssemblyReference.cache
+G:\STD_FOLDER\Desktop\Урок 8\Задача 56\obj\Debug\net6.0\Задача 56.GeneratedMSBuildEditorConfig.editorconfig
+G:\STD_FOLDER\Desktop\Урок 8\Задача 56\obj\Debug\net6.0\Задача 56.AssemblyInfoInputs.cache
+G:\STD_FOLDER\Desktop\Урок 8\Задача 56\obj\Debug\net6.0\Задача 56.AssemblyInfo.cs
+G:\STD_FOLDER\Desktop\Урок 8\Задача 56\obj\Debug\net6.0\Задача 56.csproj.CoreCompileInputs.cache
