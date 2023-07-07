@@ -1,4 +1,5 @@
-﻿int m = InputNumbers ("Введите количество строк: ");
+﻿
+int m = InputNumbers ("Введите количество строк: ");
 int n = InputNumbers ("Введите количество столбцов: ");
 int range = InputNumbers ("Введите диапазон: от 1 до ");
 
@@ -21,9 +22,9 @@ Console.WriteLine ($" \n {minSumLine+1} - строка с наименьшей �
 int SumLineElements (int [,]array, int i)
 {
     int SumLine = array [i,0];
-    for (int j =1; j < array.GetLength (1); j++)
+    for (int k =1; k < array.GetLength (1); k++)
     {
-        SumLine += array [i,j];
+        SumLine += array [i,k];
     }
     return SumLine;
 }
@@ -37,9 +38,9 @@ void CreateArray (int [,] array)
 {
     for (int i = 0; i < array.GetLength (0); i++)
     {
-        for (int j = 0; j < array.GetLength (1); j++);
+        for (int k = 0; k < array.GetLength (1); k++);
         {
-            array [i,j] = new Random(). Next (range);
+            array [i,k] = new Random(). Next (range);
         }
     }
 }
@@ -47,9 +48,9 @@ void WriteArray (int [,] array)
 {
     for (int i = 0; i < array.GetLength (0); i++)
     {
-        for (int j = 0; < array.GetLength (1); j++)
+        for (int k = 0; < array.GetLength (1); k++)
         {
-            Console.Write(array[i,j] + " ");
+            Console.Write(array[i,k] + " ");
         }
         Console.WriteLine ();
     }
